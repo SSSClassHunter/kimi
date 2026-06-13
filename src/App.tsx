@@ -1,4 +1,4 @@
-import { useState, useCallback, useRef, useEffect } from 'react';
+import { useState, useCallback, useRef, useEffect, memo, useMemo } from 'react';
 import { Search, User, ShoppingBag, Menu, X, Plus, Minus, Star, ArrowRight, MapPin, MessageCircle, Trash2, Instagram, Facebook, ChevronLeft, ChevronRight, Filter } from 'lucide-react';
 import type { Plant, CartItem } from '@/types/plant';
 import { plants as fallbackPlants, categories as fallbackCategories, careLevels } from '@/data/plants';
@@ -24,16 +24,18 @@ const BORDER = '#e8e8e3';
 const ACCENT = '#3d5a3d';
 
 // ─── Navbar ───
-function Navbar({ totalItems, onCartOpen, catalogPlants }: { totalItems: number; onCartOpen: () => void; catalogPlants: Plant[] }) {
+const Navbar = memo(function Navbar({ totalItems, onCartOpen, catalogPlants }: { totalItems: number; onCartOpen: () => void; catalogPlants: Plant[] }) {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
 
-  const handleScroll = () => setScrolled(window.scrollY > 50);
-  if (typeof window !== 'undefined') {
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 50);
+    handleScroll();
     window.addEventListener('scroll', handleScroll, { passive: true });
-  }
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const scrollTo = (id: string) => {
     setMobileOpen(false);
@@ -41,10 +43,10 @@ function Navbar({ totalItems, onCartOpen, catalogPlants }: { totalItems: number;
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  const suggestions = catalogPlants.filter((plant) => {
+  const suggestions = useMemo(() => catalogPlants.filter((plant) => {
     const haystack = `${plant.name} ${plant.scientificName} ${plant.category} ${plant.type} ${plant.description}`.toLowerCase();
     return searchQuery.trim().length > 0 && haystack.includes(searchQuery.toLowerCase());
-  }).slice(0, 6);
+  }).slice(0, 6), [catalogPlants, searchQuery]);
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 transition-all duration-300"
@@ -110,10 +112,10 @@ function Navbar({ totalItems, onCartOpen, catalogPlants }: { totalItems: number;
       )}
     </nav>
   );
-}
+});
 
 // ─── Floating Cart Button ───
-function FloatingCartButton({ totalItems, onCartOpen }: { totalItems: number; onCartOpen: () => void }) {
+const FloatingCartButton = memo(function FloatingCartButton({ totalItems, onCartOpen }: { totalItems: number; onCartOpen: () => void }) {
   const [position, setPosition] = useState({ x: 24, y: 24 });
   const dragState = useRef<{ startX: number; startY: number; originX: number; originY: number } | null>(null);
 
@@ -166,10 +168,10 @@ function FloatingCartButton({ totalItems, onCartOpen }: { totalItems: number; on
       {totalItems > 0 && <span className="absolute -top-1 -right-1 flex h-5 w-5 items-center justify-center rounded-full bg-white text-[10px] font-semibold text-[#1a2f1a]">{totalItems}</span>}
     </button>
   );
-}
+});
 
 // ─── Cart Drawer ───
-function CartDrawer({ items, isOpen, onClose, onRemove, onUpdateQuantity, totalItems, totalPrice, whatsAppLink }: {
+const CartDrawer = memo(function CartDrawer({ items, isOpen, onClose, onRemove, onUpdateQuantity, totalItems, totalPrice, whatsAppLink }: {
   items: CartItem[]; isOpen: boolean; onClose: () => void; onRemove: (id: number) => void;
   onUpdateQuantity: (id: number, q: number) => void; totalItems: number; totalPrice: number; whatsAppLink: string;
 }) {
@@ -217,16 +219,16 @@ function CartDrawer({ items, isOpen, onClose, onRemove, onUpdateQuantity, totalI
       </div>
     </>
   );
-}
+});
 
 // ─── Hero ───
-function Hero() {
+const Hero = memo(function Hero() {
   return (
     <section id="hero" className="relative w-full min-h-screen flex flex-col items-center justify-center overflow-hidden" style={{ background: GREEN_DEEP }}>
       <div className="absolute inset-0" style={{ background: 'radial-gradient(ellipse at center, rgba(26,47,26,0.95) 0%, rgba(15,25,15,1) 100%)' }} />
       <div className="absolute top-6 left-6 lg:left-10 z-20"><span className="font-sans text-[12px] uppercase tracking-[0.15em]" style={{ color: 'rgba(245,242,235,0.5)' }}>Vivero Especializado</span></div>
       <div className="relative z-10 flex flex-col items-center px-6">
-        <img src="/images/hero.jpg" alt="Vivero Camuendo" className="w-auto h-[45vh] lg:h-[55vh] object-cover rounded-sm shadow-2xl mb-12" />
+        <img src="/images/hero.jpg" alt="Vivero Camuendo" loading="eager" decoding="async" fetchPriority="high" className="w-auto h-[45vh] lg:h-[55vh] object-cover rounded-sm shadow-2xl mb-12" />
         <h1 className="font-serif font-light text-center max-w-[800px]" style={{ fontSize: 'clamp(2rem, 5.5vw, 4.5rem)', lineHeight: 0.95, color: CREAM, textShadow: '0 2px 40px rgba(0,0,0,0.5)' }}>Donde la Naturaleza Encuentra su Hogar</h1>
       </div>
       <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 z-20">
@@ -234,10 +236,10 @@ function Hero() {
       </div>
     </section>
   );
-}
+});
 
 // ─── Text Divider ───
-function TextDivider({ text, variant, bgColor }: { text: string; variant: 'bold' | 'italic'; bgColor?: string }) {
+const TextDivider = memo(function TextDivider({ text, variant, bgColor }: { text: string; variant: 'bold' | 'italic'; bgColor?: string }) {
   return (
     <div className="flex items-center justify-center overflow-hidden px-6" style={{ height: '40vh', background: bgColor || BG }}>
       <p className="text-center max-w-[900px]"
@@ -252,10 +254,10 @@ function TextDivider({ text, variant, bgColor }: { text: string; variant: 'bold'
         }}>{text}</p>
     </div>
   );
-}
+});
 
 // ─── Mas Vendidos ───
-function MasVendidos({ plants, onAddToCart }: { plants: Plant[]; onAddToCart: (plant: Plant) => void }) {
+const MasVendidos = memo(function MasVendidos({ plants, onAddToCart }: { plants: Plant[]; onAddToCart: (plant: Plant) => void }) {
   const [hoveredId, setHoveredId] = useState<number | null>(null);
   return (
     <section className="py-20 lg:py-28" style={{ background: BG_ALT }}>
@@ -271,7 +273,7 @@ function MasVendidos({ plants, onAddToCart }: { plants: Plant[]; onAddToCart: (p
             return (
               <div key={plant.id} className="bg-white overflow-hidden transition-shadow duration-500" style={{ boxShadow: hovered ? '0 20px 40px rgba(0,0,0,0.1)' : 'none' }} onMouseEnter={() => setHoveredId(plant.id)} onMouseLeave={() => setHoveredId(null)}>
                 <div className="relative overflow-hidden" style={{ aspectRatio: '3/4', background: BG_ALT }}>
-                  <img src={plant.image} alt={plant.name} className="w-full h-full object-cover transition-transform duration-700" style={{ transform: hovered ? 'scale(1.05)' : 'scale(1)' }} />
+                  <img src={plant.image} alt={plant.name} loading="lazy" decoding="async" className="w-full h-full object-cover transition-transform duration-700" style={{ transform: hovered ? 'scale(1.05)' : 'scale(1)' }} />
                   <div className="absolute inset-0 transition-colors duration-300" style={{ background: hovered ? 'rgba(0,0,0,0.2)' : 'transparent' }} />
                   <button onClick={() => onAddToCart(plant)} className="absolute bottom-4 right-4 w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-lg transition-all duration-300" style={{ opacity: hovered ? 1 : 0, transform: hovered ? 'translateY(0)' : 'translateY(16px)' }}><Plus size={20} /></button>
                   <div className="absolute top-4 left-4 text-white font-sans text-[10px] font-semibold uppercase tracking-[0.1em] px-3 py-1" style={{ background: ACCENT }}>Popular</div>
@@ -289,13 +291,13 @@ function MasVendidos({ plants, onAddToCart }: { plants: Plant[]; onAddToCart: (p
       </div>
     </section>
   );
-}
+});
 
 // ─── Video Banner ───
-function VideoBanner() {
+const VideoBanner = memo(function VideoBanner() {
   return (
     <section id="esencia" className="relative w-full overflow-hidden" style={{ height: '80vh', minHeight: '500px' }}>
-      <video autoPlay loop muted playsInline className="absolute inset-0 w-full h-full object-cover">
+      <video autoPlay loop muted playsInline preload="metadata" poster="/images/hero.jpg" className="absolute inset-0 w-full h-full object-cover">
         <source src="/video/vivero.mp4" type="video/mp4" />
       </video>
       <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.1) 50%, transparent 100%)' }} />
@@ -306,10 +308,10 @@ function VideoBanner() {
       </div>
     </section>
   );
-}
+});
 
 // ─── Featured Product ───
-function FeaturedProduct({ plant, onAddToCart }: { plant: Plant; onAddToCart: (plant: Plant) => void }) {
+const FeaturedProduct = memo(function FeaturedProduct({ plant, onAddToCart }: { plant: Plant; onAddToCart: (plant: Plant) => void }) {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden" style={{ background: GREEN_DEEP }}>
       <div className="absolute inset-0" style={{ background: 'radial-gradient(ellipse at 30% 50%, rgba(45,80,45,0.4) 0%, transparent 60%)' }} />
@@ -322,15 +324,15 @@ function FeaturedProduct({ plant, onAddToCart }: { plant: Plant; onAddToCart: (p
             <p className="font-sans text-[24px] font-semibold mb-8" style={{ color: CREAM }}>{formatCOP(plant.price)}</p>
             <button onClick={() => onAddToCart(plant)} className="inline-flex items-center gap-3 font-sans text-[14px] font-semibold uppercase tracking-[0.08em] px-10 py-4 transition-all duration-200 hover:scale-[1.02]" style={{ background: CREAM, color: GREEN_DEEP }}><Plus size={18} /> ANADIR AL CARRITO</button>
           </div>
-          <div className="flex-1 flex justify-center lg:justify-end"><img src={plant.image} alt={plant.name} className="max-h-[70vh] w-auto object-contain" /></div>
+          <div className="flex-1 flex justify-center lg:justify-end"><img src={plant.image} alt={plant.name} loading="lazy" decoding="async" className="max-h-[70vh] w-auto object-contain" /></div>
         </div>
       </div>
     </section>
   );
-}
+});
 
 // ─── Catalogo ───
-function Catalogo({ plants, categories, onAddToCart }: { plants: Plant[]; categories: string[]; onAddToCart: (plant: Plant) => void }) {
+const Catalogo = memo(function Catalogo({ plants, categories, onAddToCart }: { plants: Plant[]; categories: string[]; onAddToCart: (plant: Plant) => void }) {
   const [hoveredId, setHoveredId] = useState<number | null>(null);
   const carouselRef = useRef<HTMLDivElement>(null);
   const [activeCategory, setActiveCategory] = useState('Todas');
@@ -338,7 +340,7 @@ function Catalogo({ plants, categories, onAddToCart }: { plants: Plant[]; catego
   const [showFilters, setShowFilters] = useState(false);
   const [carouselMode, setCarouselMode] = useState(true);
 
-  const filteredPlants = plants.filter((p) => (activeCategory === 'Todas' || p.category === activeCategory) && (activeCare === 'Todos' || p.careLevel === activeCare));
+  const filteredPlants = useMemo(() => plants.filter((p) => (activeCategory === 'Todas' || p.category === activeCategory) && (activeCare === 'Todos' || p.careLevel === activeCare)), [plants, activeCategory, activeCare]);
 
   const scrollCarousel = useCallback((direction: 'left' | 'right') => {
     const el = carouselRef.current;
@@ -391,7 +393,7 @@ function Catalogo({ plants, categories, onAddToCart }: { plants: Plant[]; catego
                   <div key={plant.id} className="snap-start flex-shrink-0" style={{ width: 'clamp(260px, 22vw, 320px)' }}>
                     <div className="relative cursor-pointer" onMouseEnter={() => setHoveredId(plant.id)} onMouseLeave={() => setHoveredId(null)}>
                       <div className="relative overflow-hidden" style={{ aspectRatio: '3/4', background: BG_ALT }}>
-                        <img src={plant.image} alt={plant.name} className="w-full h-full object-cover transition-all duration-500" style={{ opacity: hovered ? 0.3 : 1, transform: hovered ? 'scale(1.05)' : 'scale(1)' }} />
+                        <img src={plant.image} alt={plant.name} loading="lazy" decoding="async" className="w-full h-full object-cover transition-all duration-500" style={{ opacity: hovered ? 0.3 : 1, transform: hovered ? 'scale(1.05)' : 'scale(1)' }} />
                         <div className="absolute inset-0 flex flex-col items-center justify-center p-6 transition-opacity duration-300" style={{ opacity: hovered ? 1 : 0, pointerEvents: hovered ? 'auto' : 'none', background: 'rgba(245,245,240,0.95)' }}>
                           <p className="font-sans text-[13px] text-center leading-relaxed mb-4" style={{ color: TEXT_SEC }}>{plant.description.slice(0, 100)}...</p>
                           <div className="flex flex-col gap-1 text-center mb-4">
@@ -421,7 +423,7 @@ function Catalogo({ plants, categories, onAddToCart }: { plants: Plant[]; catego
               return (
                 <div key={plant.id} className="relative cursor-pointer" onMouseEnter={() => setHoveredId(plant.id)} onMouseLeave={() => setHoveredId(null)}>
                   <div className="relative overflow-hidden" style={{ aspectRatio: '3/4', background: BG_ALT }}>
-                    <img src={plant.image} alt={plant.name} className="w-full h-full object-cover transition-all duration-500" style={{ opacity: hovered ? 0.3 : 1, transform: hovered ? 'scale(1.05)' : 'scale(1)' }} />
+                    <img src={plant.image} alt={plant.name} loading="lazy" decoding="async" className="w-full h-full object-cover transition-all duration-500" style={{ opacity: hovered ? 0.3 : 1, transform: hovered ? 'scale(1.05)' : 'scale(1)' }} />
                     <div className="absolute inset-0 flex flex-col items-center justify-center p-6 transition-opacity duration-300" style={{ opacity: hovered ? 1 : 0, pointerEvents: hovered ? 'auto' : 'none', background: 'rgba(245,245,240,0.95)' }}>
                       <p className="font-sans text-[13px] text-center leading-relaxed mb-4" style={{ color: TEXT_SEC }}>{plant.description.slice(0, 100)}...</p>
                       <div className="flex flex-col gap-1 text-center mb-4">
@@ -446,10 +448,10 @@ function Catalogo({ plants, categories, onAddToCart }: { plants: Plant[]; catego
       </div>
     </section>
   );
-}
+});
 
 // ─── CTA Section ───
-function CTASection() {
+const CTASection = memo(function CTASection() {
   return (
     <section id="contacto" className="relative min-h-[60vh] flex items-center justify-center overflow-hidden" style={{ background: GREEN_DEEP }}>
       <div className="absolute inset-0" style={{ background: 'radial-gradient(ellipse at 60% 50%, rgba(45,80,45,0.5) 0%, transparent 60%)' }} />
@@ -465,10 +467,10 @@ function CTASection() {
       </div>
     </section>
   );
-}
+});
 
 // ─── Footer ───
-function Footer() {
+const Footer = memo(function Footer() {
   const scrollTo = (id: string) => document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
   return (
     <footer style={{ background: BG, borderTop: `1px solid ${BORDER}` }}>
@@ -499,7 +501,7 @@ function Footer() {
       </div>
     </footer>
   );
-}
+});
 
 // ─── App ───
 export default function App() {
