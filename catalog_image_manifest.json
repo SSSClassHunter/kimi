@@ -1,0 +1,1676 @@
+[
+  {
+    "category": "Plantas frutales",
+    "categorySlug": "plantas-frutales",
+    "title": "Naranja",
+    "subtitle": "Cítrico dulce",
+    "details": "Ideal para jugos y producción familiar.",
+    "searchTerms": [
+      "Citrus sinensis orange tree fruit",
+      "orange tree fruit plant"
+    ],
+    "localBasePath": "catalog/plantas-frutales/naranja",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas frutales",
+    "categorySlug": "plantas-frutales",
+    "title": "Mandarina",
+    "subtitle": "Cítrico aromático",
+    "details": "Muy resistente y perfecto para cultivos de pequeña escala.",
+    "searchTerms": [
+      "Citrus reticulata mandarin tree fruit",
+      "mandarin orange tree fruit"
+    ],
+    "localBasePath": "catalog/plantas-frutales/mandarina",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas frutales",
+    "categorySlug": "plantas-frutales",
+    "title": "Durazno",
+    "subtitle": "Fruta de pulpa suave",
+    "details": "Crece bien en climas templados con buena ventilación.",
+    "searchTerms": [
+      "Prunus persica peach tree fruit",
+      "peach tree fruit"
+    ],
+    "localBasePath": "catalog/plantas-frutales/durazno",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas frutales",
+    "categorySlug": "plantas-frutales",
+    "title": "Manzana",
+    "subtitle": "Manzano tradicional",
+    "details": "Variedad ideal para producción casera en altura.",
+    "searchTerms": [
+      "Malus domestica apple tree fruit",
+      "apple tree fruit"
+    ],
+    "localBasePath": "catalog/plantas-frutales/manzana",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas frutales",
+    "categorySlug": "plantas-frutales",
+    "title": "Ciruela (Claudia)",
+    "subtitle": "Fruta de mesa",
+    "details": "Planta de fruta dulce con excelente rendimiento.",
+    "searchTerms": [
+      "Prunus domestica greengage plum fruit",
+      "greengage plum tree fruit"
+    ],
+    "localBasePath": "catalog/plantas-frutales/ciruela",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas frutales",
+    "categorySlug": "plantas-frutales",
+    "title": "Pera",
+    "subtitle": "Pera jugosa",
+    "details": "Planta de huerto que produce frutos tiernos y dulces.",
+    "searchTerms": [
+      "Pyrus communis pear tree fruit",
+      "pear tree fruit"
+    ],
+    "localBasePath": "catalog/plantas-frutales/pera",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas frutales",
+    "categorySlug": "plantas-frutales",
+    "title": "Cereza",
+    "subtitle": "Fruta pequeña",
+    "details": "Perfecta para jardines con clima fresco y buena exposición solar.",
+    "searchTerms": [
+      "Prunus avium cherry tree fruit",
+      "cherry tree fruit"
+    ],
+    "localBasePath": "catalog/plantas-frutales/cereza",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas frutales",
+    "categorySlug": "plantas-frutales",
+    "title": "Guaba",
+    "subtitle": "Leguminosa frutal",
+    "details": "Fruto típico de la región ideal para consumo fresco.",
+    "searchTerms": [
+      "Inga edulis guaba fruit",
+      "Inga edulis ice cream bean fruit tree"
+    ],
+    "localBasePath": "catalog/plantas-frutales/guaba",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas frutales",
+    "categorySlug": "plantas-frutales",
+    "title": "Mango",
+    "subtitle": "Frutal tropical",
+    "details": "Requiere clima cálido en lugares protegidos o invernadero.",
+    "searchTerms": [
+      "Mangifera indica mango tree fruit",
+      "mango tree fruit"
+    ],
+    "localBasePath": "catalog/plantas-frutales/mango",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas frutales",
+    "categorySlug": "plantas-frutales",
+    "title": "Tocte (nogal / nuez)",
+    "subtitle": "Árbol de nueces",
+    "details": "Planta de crecimiento lento con frutos nutritivos.",
+    "searchTerms": [
+      "Juglans neotropica Andean walnut tree fruit",
+      "Andean walnut Juglans neotropica"
+    ],
+    "localBasePath": "catalog/plantas-frutales/tocte",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": "Se asumió Juglans neotropica / nogal andino."
+  },
+  {
+    "category": "Plantas frutales",
+    "categorySlug": "plantas-frutales",
+    "title": "Naranjilla",
+    "subtitle": "Fruta exótica",
+    "details": "Planta de fruto ácido apreciada para jugos.",
+    "searchTerms": [
+      "Solanum quitoense naranjilla fruit plant",
+      "naranjilla fruit plant"
+    ],
+    "localBasePath": "catalog/plantas-frutales/naranjilla",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas frutales",
+    "categorySlug": "plantas-frutales",
+    "title": "Guayaba",
+    "subtitle": "Fruta tropical",
+    "details": "Ideal para consumo fresco y procesados dulces.",
+    "searchTerms": [
+      "Psidium guajava guava fruit tree",
+      "guava tree fruit"
+    ],
+    "localBasePath": "catalog/plantas-frutales/guayaba",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas frutales",
+    "categorySlug": "plantas-frutales",
+    "title": "Guayabilla",
+    "subtitle": "Variedad local",
+    "details": "Planta de fruto pequeño muy sabroso.",
+    "searchTerms": [
+      "Psidium guineense guayabilla fruit plant",
+      "small guava Psidium guineense"
+    ],
+    "localBasePath": "catalog/plantas-frutales/guayabilla",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": "Nombre local: confirmar especie antes de publicar si se requiere exactitud botánica."
+  },
+  {
+    "category": "Plantas frutales",
+    "categorySlug": "plantas-frutales",
+    "title": "Fresa",
+    "subtitle": "Fruta roja",
+    "details": "Planta ideal para macetas y bandejas flotantes.",
+    "searchTerms": [
+      "Fragaria ananassa strawberry plant fruit",
+      "strawberry plant fruit"
+    ],
+    "localBasePath": "catalog/plantas-frutales/fresa",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas frutales",
+    "categorySlug": "plantas-frutales",
+    "title": "Frambuesa",
+    "subtitle": "Pequeña y aromática",
+    "details": "Planta ornamental y comestible con frutos suaves.",
+    "searchTerms": [
+      "Rubus idaeus raspberry plant fruit",
+      "raspberry plant fruit"
+    ],
+    "localBasePath": "catalog/plantas-frutales/frambuesa",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas frutales",
+    "categorySlug": "plantas-frutales",
+    "title": "Uva",
+    "subtitle": "Vid para jardín",
+    "details": "Requiere soporte y exposición al sol.",
+    "searchTerms": [
+      "Vitis vinifera grape vine fruit",
+      "grape vine fruit"
+    ],
+    "localBasePath": "catalog/plantas-frutales/uva",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas frutales",
+    "categorySlug": "plantas-frutales",
+    "title": "Granadilla",
+    "subtitle": "Fruta de pulpa aromática",
+    "details": "Planta trepadora que necesita tutor y clima frío.",
+    "searchTerms": [
+      "Passiflora ligularis granadilla fruit vine",
+      "sweet granadilla fruit plant"
+    ],
+    "localBasePath": "catalog/plantas-frutales/granadilla",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas frutales",
+    "categorySlug": "plantas-frutales",
+    "title": "Tomate de árbol",
+    "subtitle": "Fruta andina",
+    "details": "Planta alta que produce frutos nutritivos y ácidos.",
+    "searchTerms": [
+      "Solanum betaceum tamarillo fruit tree",
+      "tamarillo tree tomato plant"
+    ],
+    "localBasePath": "catalog/plantas-frutales/tomate-de-arbol",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas frutales",
+    "categorySlug": "plantas-frutales",
+    "title": "Tomate riñón",
+    "subtitle": "Tomate para ensaladas",
+    "details": "Variedad de fruto firme y sabroso.",
+    "searchTerms": [
+      "Solanum lycopersicum tomato plant fruit",
+      "tomato plant red fruit"
+    ],
+    "localBasePath": "catalog/plantas-frutales/tomate-rinon",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas frutales",
+    "categorySlug": "plantas-frutales",
+    "title": "Tomate cherry",
+    "subtitle": "Tomate pequeño",
+    "details": "Excelente para cultivo en macetas y consumo fresco.",
+    "searchTerms": [
+      "cherry tomato plant fruit",
+      "Solanum lycopersicum cherry tomato plant"
+    ],
+    "localBasePath": "catalog/plantas-frutales/tomate-cherry",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas frutales",
+    "categorySlug": "plantas-frutales",
+    "title": "Chirimoya",
+    "subtitle": "Fruta tropical",
+    "details": "Planta de clima templado con frutos cremosos.",
+    "searchTerms": [
+      "Annona cherimola cherimoya fruit tree",
+      "cherimoya fruit tree"
+    ],
+    "localBasePath": "catalog/plantas-frutales/chirimoya",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas medicinales / aromáticas",
+    "categorySlug": "plantas-medicinales-aromaticas",
+    "title": "Ruda",
+    "subtitle": "Planta medicinal",
+    "details": "Usada para infusiones y tradición herbal.",
+    "searchTerms": [
+      "Ruta graveolens rue plant",
+      "rue plant Ruta graveolens"
+    ],
+    "localBasePath": "catalog/plantas-medicinales-aromaticas/ruda",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas medicinales / aromáticas",
+    "categorySlug": "plantas-medicinales-aromaticas",
+    "title": "Sábila",
+    "subtitle": "Aloe vera",
+    "details": "Muy utilizada para cuidado de la piel.",
+    "searchTerms": [
+      "Aloe vera plant",
+      "Aloe vera succulent plant"
+    ],
+    "localBasePath": "catalog/plantas-medicinales-aromaticas/sabila",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas medicinales / aromáticas",
+    "categorySlug": "plantas-medicinales-aromaticas",
+    "title": "Menta",
+    "subtitle": "Hierba aromática",
+    "details": "Ideal para infusiones y aromatizar ambientes.",
+    "searchTerms": [
+      "Mentha mint plant",
+      "Mentha spicata mint plant"
+    ],
+    "localBasePath": "catalog/plantas-medicinales-aromaticas/menta",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas medicinales / aromáticas",
+    "categorySlug": "plantas-medicinales-aromaticas",
+    "title": "Cedro",
+    "subtitle": "Aromático y medicinal",
+    "details": "Planta de hojas fragantes y usos tradicionales.",
+    "searchTerms": [
+      "Cedrela odorata cedar tree leaves",
+      "Cedrela odorata tree"
+    ],
+    "localBasePath": "catalog/plantas-medicinales-aromaticas/cedro",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": "Nombre ambiguo: puede referirse a Cedrela odorata u otra especie local."
+  },
+  {
+    "category": "Plantas medicinales / aromáticas",
+    "categorySlug": "plantas-medicinales-aromaticas",
+    "title": "Hierba Luisa",
+    "subtitle": "Limoncillo",
+    "details": "Planta aromática para té digestivo.",
+    "searchTerms": [
+      "Cymbopogon citratus lemongrass plant",
+      "lemongrass plant Cymbopogon citratus"
+    ],
+    "localBasePath": "catalog/plantas-medicinales-aromaticas/hierba-luisa",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas medicinales / aromáticas",
+    "categorySlug": "plantas-medicinales-aromaticas",
+    "title": "Toronjil",
+    "subtitle": "Melisa",
+    "details": "Planta calmante ideal para infusiones.",
+    "searchTerms": [
+      "Melissa officinalis lemon balm plant",
+      "lemon balm plant"
+    ],
+    "localBasePath": "catalog/plantas-medicinales-aromaticas/toronjil",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas medicinales / aromáticas",
+    "categorySlug": "plantas-medicinales-aromaticas",
+    "title": "Albahaca",
+    "subtitle": "Hierba culinaria",
+    "details": "Muy usada en cocina y en jardines aromáticos.",
+    "searchTerms": [
+      "Ocimum basilicum basil plant",
+      "basil plant Ocimum basilicum"
+    ],
+    "localBasePath": "catalog/plantas-medicinales-aromaticas/albahaca",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas medicinales / aromáticas",
+    "categorySlug": "plantas-medicinales-aromaticas",
+    "title": "Apio",
+    "subtitle": "Hierba comestible",
+    "details": "Planta versátil para ensaladas y guisos.",
+    "searchTerms": [
+      "Apium graveolens celery plant",
+      "celery plant Apium graveolens"
+    ],
+    "localBasePath": "catalog/plantas-medicinales-aromaticas/apio",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas medicinales / aromáticas",
+    "categorySlug": "plantas-medicinales-aromaticas",
+    "title": "Dulcamara",
+    "subtitle": "Hierba medicinal",
+    "details": "Usada en tradición herbal y jardinería natural.",
+    "searchTerms": [
+      "Solanum dulcamara bittersweet plant flower",
+      "bittersweet nightshade plant"
+    ],
+    "localBasePath": "catalog/plantas-medicinales-aromaticas/dulcamara",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": "Puede ser tóxica y el nombre común varía; revisar imagen seleccionada."
+  },
+  {
+    "category": "Plantas medicinales / aromáticas",
+    "categorySlug": "plantas-medicinales-aromaticas",
+    "title": "Orégano orejón",
+    "subtitle": "Aromático",
+    "details": "Variedad de orégano con hojas grandes y fragantes.",
+    "searchTerms": [
+      "Plectranthus amboinicus Cuban oregano plant",
+      "Cuban oregano plant"
+    ],
+    "localBasePath": "catalog/plantas-medicinales-aromaticas/oregano-orejon",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas medicinales / aromáticas",
+    "categorySlug": "plantas-medicinales-aromaticas",
+    "title": "Orégano (normal)",
+    "subtitle": "Aromático clásico",
+    "details": "Ideal para cocinar y para huertos caseros.",
+    "searchTerms": [
+      "Origanum vulgare oregano plant",
+      "oregano plant Origanum vulgare"
+    ],
+    "localBasePath": "catalog/plantas-medicinales-aromaticas/oregano",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas nativas",
+    "categorySlug": "plantas-nativas",
+    "title": "Cholán",
+    "subtitle": "Planta nativa",
+    "details": "Especie local para paisajismo y recuperación de suelos.",
+    "searchTerms": [
+      "Tecoma stans yellow trumpetbush tree flowers",
+      "Tecoma stans tree flower"
+    ],
+    "localBasePath": "catalog/plantas-nativas/cholan",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas nativas",
+    "categorySlug": "plantas-nativas",
+    "title": "Laurel",
+    "subtitle": "Árbol aromático",
+    "details": "Árbol tradicional con múltiples usos culturales.",
+    "searchTerms": [
+      "Cordia alliodora laurel tree",
+      "Cordia alliodora tree"
+    ],
+    "localBasePath": "catalog/plantas-nativas/laurel",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": "En categoría nativa se asumió Cordia alliodora, no Laurus nobilis culinario."
+  },
+  {
+    "category": "Plantas nativas",
+    "categorySlug": "plantas-nativas",
+    "title": "Floripondio",
+    "subtitle": "Flor ornamental",
+    "details": "Planta llamativa con flores grandes y fragantes.",
+    "searchTerms": [
+      "Brugmansia suaveolens angel trumpet flower",
+      "Brugmansia flower plant"
+    ],
+    "localBasePath": "catalog/plantas-nativas/floripondio",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas nativas",
+    "categorySlug": "plantas-nativas",
+    "title": "Aliso",
+    "subtitle": "Árbol de ribera",
+    "details": "Ideal para zonas húmedas y control de erosión.",
+    "searchTerms": [
+      "Alnus acuminata alder tree",
+      "Andean alder Alnus acuminata"
+    ],
+    "localBasePath": "catalog/plantas-nativas/aliso",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas ornamentales (flores)",
+    "categorySlug": "plantas-ornamentales",
+    "title": "Geranios",
+    "subtitle": "Planta de flor",
+    "details": "Colorida y resistente, perfecta para macetas.",
+    "searchTerms": [
+      "Pelargonium geranium flowers plant",
+      "geranium flowers plant"
+    ],
+    "localBasePath": "catalog/plantas-ornamentales/geranios",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas ornamentales (flores)",
+    "categorySlug": "plantas-ornamentales",
+    "title": "Begonias",
+    "subtitle": "Flores ornamentales",
+    "details": "Ideal para interiores y sombras ligeras.",
+    "searchTerms": [
+      "Begonia flowers plant",
+      "Begonia plant flowers"
+    ],
+    "localBasePath": "catalog/plantas-ornamentales/begonias",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas ornamentales (flores)",
+    "categorySlug": "plantas-ornamentales",
+    "title": "Claveles",
+    "subtitle": "Flor clásica",
+    "details": "Fácil de cultivar y con flores duraderas.",
+    "searchTerms": [
+      "Dianthus caryophyllus carnation flowers",
+      "carnation flowers plant"
+    ],
+    "localBasePath": "catalog/plantas-ornamentales/claveles",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas ornamentales (flores)",
+    "categorySlug": "plantas-ornamentales",
+    "title": "Margaritas",
+    "subtitle": "Planta campestre",
+    "details": "Aporta luz y frescura en camas florales.",
+    "searchTerms": [
+      "daisy flowers plant",
+      "Bellis perennis daisy flowers"
+    ],
+    "localBasePath": "catalog/plantas-ornamentales/margaritas",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas ornamentales (flores)",
+    "categorySlug": "plantas-ornamentales",
+    "title": "Ciclamen",
+    "subtitle": "Flor de interior",
+    "details": "Popular en ambientes frescos y con flores coloridas.",
+    "searchTerms": [
+      "Cyclamen persicum flowers plant",
+      "Cyclamen flower plant"
+    ],
+    "localBasePath": "catalog/plantas-ornamentales/ciclamen",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas ornamentales (flores)",
+    "categorySlug": "plantas-ornamentales",
+    "title": "Pensamientos",
+    "subtitle": "Planta de estación",
+    "details": "Resistente y ideal para borduras y macetas.",
+    "searchTerms": [
+      "Viola tricolor pansy flowers",
+      "pansy flowers plant"
+    ],
+    "localBasePath": "catalog/plantas-ornamentales/pensamientos",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas ornamentales (flores)",
+    "categorySlug": "plantas-ornamentales",
+    "title": "Dormilonas",
+    "subtitle": "Victoria regia",
+    "details": "Florece en climas fríos con pétalos suaves.",
+    "searchTerms": [
+      "Mimosa pudica sensitive plant flower",
+      "Mimosa pudica plant"
+    ],
+    "localBasePath": "catalog/plantas-ornamentales/dormilonas",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": "El catálogo dice subtítulo 'Victoria regia', pero dormilona normalmente se usa para Mimosa pudica. Revisar manualmente."
+  },
+  {
+    "category": "Plantas ornamentales (flores)",
+    "categorySlug": "plantas-ornamentales",
+    "title": "Clavelina",
+    "subtitle": "Planta ornamental",
+    "details": "Compacta y con flores delicadas.",
+    "searchTerms": [
+      "Dianthus chinensis pink flowers plant",
+      "Dianthus chinensis flower"
+    ],
+    "localBasePath": "catalog/plantas-ornamentales/clavelina",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Cactus",
+    "categorySlug": "cactus",
+    "title": "Cactus (variedad general)",
+    "subtitle": "Suculeta mixta",
+    "details": "Colección de cactus resistentes y de fácil cuidado.",
+    "searchTerms": [
+      "cactus potted collection plant",
+      "cactus plants"
+    ],
+    "localBasePath": "catalog/cactus/cactus",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas de jardín / decoración exterior",
+    "categorySlug": "plantas-de-jardin-decoracion-exterior",
+    "title": "Duranta",
+    "subtitle": "Arbusto florido",
+    "details": "Ideal para setos y separadores verdes.",
+    "searchTerms": [
+      "Duranta erecta golden dewdrop shrub flowers",
+      "Duranta erecta plant flowers"
+    ],
+    "localBasePath": "catalog/plantas-de-jardin-decoracion-exterior/duranta",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas de jardín / decoración exterior",
+    "categorySlug": "plantas-de-jardin-decoracion-exterior",
+    "title": "Palmeras",
+    "subtitle": "Planta vertical",
+    "details": "Perfecta para dar altura y sombra al jardín.",
+    "searchTerms": [
+      "palm tree garden plant",
+      "potted palm plant"
+    ],
+    "localBasePath": "catalog/plantas-de-jardin-decoracion-exterior/palmeras",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas de jardín / decoración exterior",
+    "categorySlug": "plantas-de-jardin-decoracion-exterior",
+    "title": "Plantas colgantes",
+    "subtitle": "Decoración aérea",
+    "details": "Dale movimiento a balcones y pérgolas.",
+    "searchTerms": [
+      "hanging plants basket garden",
+      "hanging house plants basket"
+    ],
+    "localBasePath": "catalog/plantas-de-jardin-decoracion-exterior/plantas-colgantes",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Plantas de jardín / decoración exterior",
+    "categorySlug": "plantas-de-jardin-decoracion-exterior",
+    "title": "Helechos",
+    "subtitle": "Verde abundante",
+    "details": "Plantas ideales para zonas sombreadas y húmedas.",
+    "searchTerms": [
+      "fern potted plant",
+      "fern plant"
+    ],
+    "localBasePath": "catalog/plantas-de-jardin-decoracion-exterior/helechos",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Hortalizas",
+    "categorySlug": "hortalizas",
+    "title": "Lechuga",
+    "subtitle": "Hoja fresca",
+    "details": "Rápido crecimiento y cosecha continua.",
+    "searchTerms": [
+      "Lactuca sativa lettuce plant",
+      "lettuce plant"
+    ],
+    "localBasePath": "catalog/hortalizas/lechuga",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Hortalizas",
+    "categorySlug": "hortalizas",
+    "title": "Col",
+    "subtitle": "Brassica",
+    "details": "Planta robusta para clima templado.",
+    "searchTerms": [
+      "Brassica oleracea cabbage plant",
+      "cabbage plant"
+    ],
+    "localBasePath": "catalog/hortalizas/col",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Hortalizas",
+    "categorySlug": "hortalizas",
+    "title": "Brócoli",
+    "subtitle": "Verdura saludable",
+    "details": "Ideal para huertos familiares y consumo directo.",
+    "searchTerms": [
+      "Brassica oleracea italica broccoli plant",
+      "broccoli plant"
+    ],
+    "localBasePath": "catalog/hortalizas/brocoli",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Hortalizas",
+    "categorySlug": "hortalizas",
+    "title": "Remolacha",
+    "subtitle": "Raíz nutritiva",
+    "details": "Planta de raíz dulce y hojas comestibles.",
+    "searchTerms": [
+      "Beta vulgaris beetroot plant",
+      "beetroot plant"
+    ],
+    "localBasePath": "catalog/hortalizas/remolacha",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Hortalizas",
+    "categorySlug": "hortalizas",
+    "title": "Cebolla larga",
+    "subtitle": "Cebolla tierna",
+    "details": "Perfecta para ensaladas y condimentos.",
+    "searchTerms": [
+      "Allium fistulosum scallion plant",
+      "spring onion plant"
+    ],
+    "localBasePath": "catalog/hortalizas/cebolla-larga",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Hortalizas",
+    "categorySlug": "hortalizas",
+    "title": "Cebolla paiteña",
+    "subtitle": "Variedad local",
+    "details": "Cebolla tradicional de la región con sabor fuerte.",
+    "searchTerms": [
+      "Allium cepa red onion plant",
+      "red onion plant"
+    ],
+    "localBasePath": "catalog/hortalizas/cebolla-paitena",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Hortalizas",
+    "categorySlug": "hortalizas",
+    "title": "Alfalfa",
+    "subtitle": "Forrajera",
+    "details": "Planta rica en nutrientes para alimentación natural.",
+    "searchTerms": [
+      "Medicago sativa alfalfa plant",
+      "alfalfa plant"
+    ],
+    "localBasePath": "catalog/hortalizas/alfalfa",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Hortalizas",
+    "categorySlug": "hortalizas",
+    "title": "Apio",
+    "subtitle": "Hierba crujiente",
+    "details": "Ideal para huertos y ensaladas frescas.",
+    "searchTerms": [
+      "Apium graveolens celery plant",
+      "celery plant Apium graveolens"
+    ],
+    "localBasePath": "catalog/hortalizas/apio",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Hortalizas",
+    "categorySlug": "hortalizas",
+    "title": "Perejil",
+    "subtitle": "Hierba aromática",
+    "details": "Perfecto para acompañar platos y salsas.",
+    "searchTerms": [
+      "Petroselinum crispum parsley plant",
+      "parsley plant"
+    ],
+    "localBasePath": "catalog/hortalizas/perejil",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Hortalizas",
+    "categorySlug": "hortalizas",
+    "title": "Cilantro",
+    "subtitle": "Hierba fresca",
+    "details": "Usado en cocina tradicional y huertos de balcón.",
+    "searchTerms": [
+      "Coriandrum sativum coriander cilantro plant",
+      "cilantro plant"
+    ],
+    "localBasePath": "catalog/hortalizas/cilantro",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Hortalizas",
+    "categorySlug": "hortalizas",
+    "title": "Papa",
+    "subtitle": "Tubérculo",
+    "details": "Planta de raíz para huertos familiares y cocina diaria.",
+    "searchTerms": [
+      "Solanum tuberosum potato plant",
+      "potato plant"
+    ],
+    "localBasePath": "catalog/hortalizas/papa",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Hortalizas",
+    "categorySlug": "hortalizas",
+    "title": "Nabo",
+    "subtitle": "Raíz fresca",
+    "details": "Especie perfecta para clima fresco y rotación de cultivos.",
+    "searchTerms": [
+      "Brassica rapa turnip plant",
+      "turnip plant"
+    ],
+    "localBasePath": "catalog/hortalizas/nabo",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  },
+  {
+    "category": "Hortalizas",
+    "categorySlug": "hortalizas",
+    "title": "Nabo chino",
+    "subtitle": "Daikon",
+    "details": "Variedad de nabo ideal para siembras en maceta.",
+    "searchTerms": [
+      "Raphanus sativus daikon radish plant",
+      "daikon radish plant"
+    ],
+    "localBasePath": "catalog/hortalizas/nabo-chino",
+    "preferredSource": "Wikimedia Commons",
+    "allowedLicenses": [
+      "public domain",
+      "cc0",
+      "cc by",
+      "cc-by",
+      "cc by-sa",
+      "cc-by-sa"
+    ],
+    "avoidLicenses": [
+      "noncommercial",
+      "no derivatives",
+      "fair use"
+    ],
+    "manualReviewNote": ""
+  }
+]
